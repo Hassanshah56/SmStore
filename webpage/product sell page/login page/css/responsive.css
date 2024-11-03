@@ -1,0 +1,25 @@
+@media (max-width:320px) {
+  body{
+    margin-top: 2%;
+    
+  }
+}
+
+@media(min-width:768px){
+  .container{
+   margin-top: 5%;
+  }
+
+  button , .btn1 , .button{
+     padding-right: 100px;
+     display: inline-block;
+     justify-content: space-between;
+     align-items: center;
+  }
+
+  .sign-up-btn{
+    margin-right: 15px;
+  }
+ }
+
+ 

@@ -1,0 +1,75 @@
+body{
+  margin-top: 1%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 222, 179);
+}
+
+.body{
+  margin-top: 5%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container , .container2 {
+  background-color: rgb(0, 0, 128); 
+  color: rgb(245, 222, 179);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-form , .login-form2 {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button  ,.btn1 , .button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 16px;
+  background-color:white;
+  color: rgb(0 , 0 , 128);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+ background-color:rgb(245 , 222 ,179 );
+ color: rgb(0 , 0 , 128);
+}
+
+.btn2{
+  background-color: white;
+}
+
+
+.btn2:hover{
+  background-color: rgb(245 , 222 ,179 );
+}
+
+

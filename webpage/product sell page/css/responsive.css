@@ -1,0 +1,97 @@
+@media(max-width: 1024px){
+    .container{
+       padding: 10px;
+       gap: 10px;
+    }
+       .stylebn{
+           padding: 1px;
+            width:50px;
+            height:14px
+        
+    }
+    .style2{
+       padding: 1px;
+            width:100px;
+            height:14px
+    }
+   }
+
+   @media(max-width: 768px){
+      .container{
+       flex-direction: column;
+      }
+       .search-bar{
+           padding: 10px;
+           flex-direction: column;
+           font-size: 10px;
+       }
+       .style2{
+                width:150px; }
+   }
+   @media(max-width: 425px){
+       *{
+           padding: 0px;
+           margin: 0px;
+       }
+       .search-bar{
+           padding: 5px;
+           flex-direction: column;
+           gap: 2px;
+       }
+       .stylebn{
+           width: 40px;
+           font-size: xx-small;
+       }
+       .style2{
+           width:80px;
+            }
+            .pc{
+               font-size: xx-small;
+            }
+            .container3{
+               width: 70%;
+               height: 500px;
+
+            }
+            .container4{
+               width: 50px;
+               height: 80px;
+               font-size: 8px;
+            }
+            .productwidh{
+               width: 200px;
+               height: 200px;
+            }
+}
+@media(max-width:375px){
+   .search-bar{
+      padding: 0px;
+      flex-direction: column;
+  }
+  .stylebn{
+      width: 30px;
+      font-size: x-small;
+      gap: 1px;
+  }
+  .style2{
+      width:80px;
+       }
+       .container3{
+          width: 70%;
+          height: 500px;
+
+       }
+       .container4{
+          width: 50px;
+          height: 80px;
+          font-size: 8px;
+       }
+       .productwidh{
+          width: 200px;
+          height: 200px;
+       }
+       .oktra img {
+         width: 120px;
+       }
+
+}
